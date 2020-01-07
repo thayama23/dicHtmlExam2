@@ -123,7 +123,7 @@ header ul:after {
 .function-images {
   max-width: 50%;
   margin: 0 auto;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 .function-image img {
