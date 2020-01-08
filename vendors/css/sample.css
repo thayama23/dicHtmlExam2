@@ -117,18 +117,22 @@ header ul:after {
 .function {
   background-color: #b3b3b3;
   padding-top: 10px;
+  /* margin: 0 auto; */
 }
 
+.function2 {
+  margin: 0 atuo;
+}
 
 .function-images {
-  max-width: 50%;
+  max-width: 36%;
   margin: 0 auto;
-  /* padding: 50px 0; */
 }
 
 .function-image img {
   width: 50%
 }
+
 .function-image {
   float: left;
 
