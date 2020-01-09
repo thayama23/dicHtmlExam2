@@ -83,11 +83,7 @@ body {
 }
 */
 
-main-header img {
-  width: 60%;
-  height: auto;
-  vertical-align: middle;
-}
+
 
 header ul a {
 }
@@ -99,12 +95,26 @@ header ul:after {
 }
 /* ここまでがheader部分の実装 */
 
+.main-header {
+  /* position: relative; */
+  text-align: center;
+
+}
+
 .main-header img {
   margin-top: 110px;
   width: 20%;
   height: auto;
+  /* vertical-align: center; */
+  /* position: absolute;
+  top: 50% */
+
   /* vertical-align: middle; */
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+
+.img1 img {
+  vertical-align: center;
 }
 
 .about {
