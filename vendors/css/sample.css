@@ -5,7 +5,6 @@
 
 html {
   font-size: 62.5%;
-  height: 100%;
   /*
   position: relative;
   min-height: 100%;
@@ -14,14 +13,14 @@ html {
 
 body {
   text-align: center;
-  height: 100%;
 }
 
 .container {
-  /* width: 980px; */
-  margin: 0 auto;
-  position: relative;
+  width: 100%;
   min-height: 100%;
+  padding-bottom: 70px;
+  /* margin: 0 auto; */
+  position: relative;
 }
 
 .main-header {
@@ -125,18 +124,32 @@ header ul:after {
 }
 
 .function-images {
-  max-width: 36%;
+  width: 600px;
   margin: 0 auto;
+  padding-bottom: 30px;
+
+  /* display: table; */
 }
 
-.function-image img {
-  width: 50%
+}
+.sample img {
+  width: 50px;
 }
 
 .function-image {
   float: left;
+  width: 140px;
 
+  /* display: inline-table; */
+  margin-left: 10px;
+  /* text-align:center;   */
+  /* width: 30%; */
+  }
+
+.function-image img {
+  height: 100px;
 }
+
 /* ここまでがfunction部分の実装 */
 
 footer {
