@@ -5,14 +5,13 @@
 
 html {
   font-size: 62.5%;
-  /*
-  position: relative;
-  min-height: 100%;
-  */
+  /* position: relative; */
+  height: 130%;
 }
 
 body {
   text-align: center;
+  /* height: 100%; */
 }
 
 .container {
@@ -178,7 +177,7 @@ footer {
   height: 50px;
   padding-top: 20px;
   position: absolute;
-  bottom: 0%;
+  bottom: 0;
 
 /* footer部分の実装 */
 }
