@@ -5,32 +5,31 @@
 
 html {
   font-size: 62.5%;
-  /* position: relative; */
-  height: 130%;
+  height: 100%;
 }
 
 body {
   text-align: center;
-  /* height: 100%; */
+  background-color: red;
+  /* position: relative; */
+  height: 100%;
 }
 
 .container {
   width: 100%;
-  min-height: 100%;
+  min-height: 90%;
   padding-bottom: 70px;
   /* margin: 0 auto; */
   position: relative;
 }
-
-.main-header {
-  padding-bottom: 15%;
-  width: 100%;
-  background-size: cover;
-  background-image: url("../images/header.jpg");
-  background-attachment: fixed;
+header ul a {
 }
 
-/* ここから */
+header li {
+}
+
+header ul:after {
+}
 
 .header {
   background-color: #404040;
@@ -50,6 +49,22 @@ body {
   display: block;
   padding: 15px;
 }
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  min-height: 150px;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* ここから */
+
+
+
+
 
 .right_menu {
   float: right;
@@ -84,21 +99,9 @@ body {
 
 
 
-header ul a {
-}
 
-header li {
-}
-
-header ul:after {
-}
 /* ここまでがheader部分の実装 */
 
-.main-header {
-  position: relative;
-  /* text-align: center; */
-
-}
 
 .main-header img {
   position: absolute;
@@ -126,8 +129,10 @@ header ul:after {
   width: 50%;
 } */
 
-.about {
+.mid-about {
+
   margin: 30px 0;
+  padding-bottom: 100px;
 /* About Achieve部分の実装 */
 }
 
@@ -135,7 +140,7 @@ header ul:after {
 .function {
   background-color: #b3b3b3;
   padding-top: 10px;
-  /* margin: 0 auto; */
+  /* margin-top: 70px; */
 }
 
 .function2 {
